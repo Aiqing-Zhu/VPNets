@@ -9,7 +9,7 @@
 ## Reproducing the results of the paper
 In general all parameters which need to be specified are given in the paper.
 
-## Running Experiments Volterra equations:
+### Running Experiments Volterra equations:
 To train the models, run:
 ```
 python LV.py --filename 'lv-l1' ----net_type 'LA'
@@ -22,7 +22,7 @@ python LV_output.py
 on CPU
 
 
-## Running Experiments Charged particle dynamics:
+### Running Experiments Charged particle dynamics:
 Here,  we used 5 different seed which can also be set via the command line `random_seed` parameter.
 To train the models, run:
 ```
