@@ -71,7 +71,7 @@ def main():
     ax[1,1].set_ylabel(r'$v_2$', fontsize=xsize)
     ax[1,1].legend(loc='center',fontsize=legendsize)
     
-    ax[2,0].set_title('Conversation of energy',fontsize=titlesize,loc='left')
+    ax[2,0].set_title('Conservation of energy',fontsize=titlesize,loc='left')
     ax[2,0].set_xlabel('Time', fontsize=xsize)
     ax[2,0].set_ylabel('Energy error', fontsize=xsize)
     ax[2,0].legend(loc='upper left',fontsize=legendsize)
